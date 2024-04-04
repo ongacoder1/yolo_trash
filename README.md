@@ -8,8 +8,22 @@ YOLOv6n | 84.3 | 35.8 | 42.3 | 84.3 | 35.8 | 42.3 | 96.3 | 84.6 | 74.7 |
 YOLOv6l | 91.7 | 57.8 | 55.1 | 87.8 | 37.6 | 44.6 | 97.3 | 88.4 | 77.1 |
 YOLOv7t | TBA | TBA | TBA | TBA | TBA | TBA | 90.1 | 72.7 | 59.9 |
 YOLOv7 | TBA | TBA | TBA | TBA | TBA | TBA | 94.2 | 80.0 | 68.5 |
-YOLOv9 (GELAN-C) | 94.0 | 66.1 | 60.7 | 88.6 | 41.7 | 46.2 | 98.7 | 93.1 | 83.5 | 
+YOLOv9 (GELAN-C) | **`94.0`** | **`66.1`** | **`60.7`** | 88.6 | 41.7 | **`46.2`** | **`98.7`** | **`93.1`** | **`83.5`** | 
 Transformers | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
+### State-of-the-art results:
+
+Dataset | Method | mAP@50 | mAP@50:95 | Condition
+--- | --- | --- | --- | --- |
+Trash<br>Flowrate<sup>1</sup> | M2DET | - | 45.8 | Above<br>water | 
+FloW<sup>2</sup> | YOLOv7-ACELAN | 44.0 | **`90.3`** | Above<br>water
+TrashICRA<sup>3</sup> | Faster-RCNN | 96.7 | 74.1 | Under<br>water
+
+<sup>1</sup>https://www.researchgate.net/publication/356793137_Trash_Detection_on_Water_Channels
+
+<sup>2</sup>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4758755
+
+<sup>3</sup>https://ieeexplore.ieee.org/abstract/document/10249233
 
 ### Trash-ICRA Confusion Matrix and Precision-Recall Curve:
 <p align="center">
