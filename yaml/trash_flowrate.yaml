@@ -1,0 +1,6 @@
+train: ../data/trash_flowrate/train/images
+val: ../data/trash_flowrate/val/images
+test: ../data/trash_flowrate/val/images
+
+nc: 1
+names: ['garbage']

@@ -1,0 +1,6 @@
+train: ../data/trashicra/train/images/
+val: ../data/trashicra/test/images/
+test: ../data/trashicra/test/images/
+
+nc: 3
+names: ['plastic', 'bio', 'rov']

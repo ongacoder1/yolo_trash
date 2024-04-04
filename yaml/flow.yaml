@@ -1,0 +1,6 @@
+train: ../data/flow/train/images
+val: ../data/flow/test/images
+test: ../data/flow/test/images
+
+nc: 1
+names: ['trash_plastic']
