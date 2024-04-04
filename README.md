@@ -1,6 +1,4 @@
-Various YOLO versions for trash detection.
-
-
+### Various YOLO versions for trash detection.
 YOLO/Dataset | Trash<br>Flowrate |  |  | FloW |  |  | Trash<br>ICRA |  |  |
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |
 --- | mAP<br>@50 | mAP<br>@75 | mAP<br>@50:95 |mAP<br>@50 | mAP<br>@75 | mAP<br>@50:95 |mAP<br>@50 | mAP<br>@75 | mAP<br>@50:95 |
@@ -13,3 +11,17 @@ YOLOv7 | TBA | TBA | TBA | TBA | TBA | TBA | 94.2 | 80.0 | 68.5 |
 YOLOv9 (GELAN-C) | 94.0 | 66.1 | 60.7 | 88.6 | 41.7 | 46.2 | 98.7 | 93.1 | 83.5 | 
 Transformers | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
 
+### Trash-ICRA Confusion Matrix and Precision-Recall Curve:
+<p align="center">
+  <img src='https://github.com/ongacoder1/yolo_trash/blob/main/images/cm_trashicra.png' width=30%, height=30%>
+  <img src='https://github.com/ongacoder1/yolo_trash/blob/main/images/pr_trashicra.png' width=40%, height=40%>
+</p>
+
+### Trash-ICRA Metrics:
+
+Class     | Images | Instances | P     | R  | mAP@50 | mAP@50:95 |
+---       | ---    | ---       | ---   |--- |---     |---        |
+all       | 1144   | 1668      |96.8       |97.0      |98.7      |83.5|
+plastic   | 1144   |  937      |99.1      |98.5      |99.4      |78.5|
+bio       | 1144   |  396      |97.4      |96.7      |99.0       |85.0|
+rov       | 1144   |  335      |93.9      |95.8      |97.5      |86.9|
